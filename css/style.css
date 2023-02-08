@@ -1,33 +1,55 @@
-
-html,body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: cyan;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: cyan;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.container{
-    width: 500px;
-    height: 500px;
-    display: grid;
-    grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
+.container {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
 }
-.square{
-    background-color: darkgray;
-    border-style: solid ;
+.square {
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.o::after{
+    content: "O";
+}
+
+.x::after{
+    content: "X";
+}
+
+.reset{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
-    color: turquoise;
-   
-    }
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+}
+.reset:active{
+    background-color: rgba(76, 153, 204, 0.637);
+    transition: 100ms;
+}
