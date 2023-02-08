@@ -1,0 +1,33 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cyan;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+.square{
+    background-color: darkgray;
+    border-style: solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: turquoise;
+   
+    }
