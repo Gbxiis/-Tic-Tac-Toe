@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: cyan;
+  background-color: darkgray;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -23,7 +23,7 @@ h1 {
   justify-content: center;
 }
 .square {
-  background-color: darkgray;
+  background-color: cyan;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,10 +42,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 30px;
-    color: white;
-    background-color: gray;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color: black;
+    background-color: cyan ;
     cursor: pointer;
     border: none;
 }
