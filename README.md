@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-  Tic-Tac-Toe é um aplicação front-end web simples que consiste em simular um "jogo-da-velha" , um projeto que me desafio um pouco mas fui persistente e consegui conlcuir da maneira que eu gostaria.
+Tic-Tac-Toe é uma aplicação web de interface simples que tem como objetivo simular o famoso "jogo-da-velha". Esse projeto foi um desafio para mim,  que precisei me esforçar e persistir para conseguir concluí-lo da maneira que eu gostaria. Ao acessar a aplicação, o usuário tem acesso a uma interface que replica o tabuleiro do jogo-da-velha, o desenvolvimento da aplicação envolveu a utilização de conceitos de lógica de programação, manipulação do DOM
 
 ## Layout
 ![tic-tac-toe](https://user-images.githubusercontent.com/110855086/217649673-10e239da-1cf1-4318-90ad-71a3abe3733d.gif)
