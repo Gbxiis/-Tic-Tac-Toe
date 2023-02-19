@@ -3,6 +3,8 @@
 
 # Sobre o projeto
 
+https://tic-tac-toegb.netlify.app/
+
 Tic-Tac-Toe é uma aplicação web de interface simples que tem como objetivo simular o famoso "jogo-da-velha". Esse projeto foi um desafio para mim,  que precisei me esforçar e persistir para conseguir concluí-lo da maneira que eu gostaria. Ao acessar a aplicação, o usuário tem acesso a uma interface que replica o tabuleiro do jogo-da-velha, o desenvolvimento da aplicação envolveu a utilização de conceitos de lógica de programação, manipulação do DOM
 
 ## Layout
